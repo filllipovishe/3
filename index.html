@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Health Center - Наркологическая помощь</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Geologica', sans-serif;
+            overflow-x: hidden;
+        }
+        h1, h2 {
+            letter-spacing: -0.03em !important;
+        }
+        /* Desktop Scaling: 1rem = 1px at 1920px */
+        .desktop-scaling {
+            font-size: 0.052083333vw;
+        }
+        /* Mobile Scaling: 1rem = 1px at 360px */
+        .mobile-scaling {
+            font-size: 0.27777778vw;
+        }
+        
+        @media (max-width: 1023px) {
+            html {
+                font-size: 0.27777778vw;
+            }
+        }
+        @media (min-width: 1024px) {
+            html {
+                font-size: 0.052083333vw;
+            }
+        }
+
+        .gradient-bg-1 {
+            background: radial-gradient(40.47% 42.01% at 68.1% 57.99%, rgba(179, 221, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%);
+        }
+        .gradient-bg-2 {
+            background: radial-gradient(30.28% 41.78% at 36.07% 55%, rgba(179, 221, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        /* Mobile horizontal scroll that allows vertical page scrolling */
+        .mobile-horizontal-scroll {
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            touch-action: pan-x pan-y;
+            scrollbar-width: none;
+        }
+        .mobile-horizontal-scroll::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
