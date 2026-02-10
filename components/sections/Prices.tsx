@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { DESKTOP_PRICE_GROUPS, MOBILE_PRICES } from '../../constants';
+import { DESKTOP_PRICE_GROUPS, MOBILE_PRICES } from '../../constants.ts';
 
 const Prices: React.FC = () => {
   const [expanded, setExpanded] = useState<Record<number, boolean>>({});

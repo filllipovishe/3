@@ -1,15 +1,15 @@
 
 import React from 'react';
-import Header from '../components/common/Header';
-import Footer from '../components/common/Footer';
-import MobileFixedBar from '../components/common/MobileFixedBar';
-import Hero from '../components/sections/Hero';
-import WhatHappened from '../components/sections/WhatHappened';
-import Prices from '../components/sections/Prices';
-import Doctors from '../components/sections/Doctors';
-import FAQ from '../components/sections/FAQ';
-import Persuasion from '../components/sections/Persuasion';
-import Conditions from '../components/sections/Conditions';
+import Header from '../components/common/Header.tsx';
+import Footer from '../components/common/Footer.tsx';
+import MobileFixedBar from '../components/common/MobileFixedBar.tsx';
+import Hero from '../components/sections/Hero.tsx';
+import WhatHappened from '../components/sections/WhatHappened.tsx';
+import Prices from '../components/sections/Prices.tsx';
+import Doctors from '../components/sections/Doctors.tsx';
+import FAQ from '../components/sections/FAQ.tsx';
+import Persuasion from '../components/sections/Persuasion.tsx';
+import Conditions from '../components/sections/Conditions.tsx';
 
 interface HomePageProps {
   isMobile: boolean;

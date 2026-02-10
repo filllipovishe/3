@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { FAQ as FAQData } from '../../constants';
+import { FAQ as FAQData } from '../../constants.ts';
 
 const FAQ: React.FC = () => {
   const [activeIdx, setActiveIdx] = useState<number | null>(0);

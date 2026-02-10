@@ -1,6 +1,6 @@
 
 import React, { useRef, useState } from 'react';
-import { DOCTORS } from '../../constants';
+import { DOCTORS } from '../../constants.ts';
 
 const useDragScroll = () => {
   const ref = useRef<HTMLDivElement>(null);

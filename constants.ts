@@ -1,5 +1,5 @@
 
-import { Doctor, PriceGroup, FAQItem } from './types';
+import { Doctor, PriceGroup, FAQItem } from './types.ts';
 
 export const DOCTORS: Doctor[] = [
   { 

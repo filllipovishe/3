@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import HomePage from './pages/HomePage';
+import HomePage from './pages/HomePage.tsx';
 
 const App: React.FC = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);

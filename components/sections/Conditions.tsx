@@ -1,6 +1,6 @@
 
 import React, { useRef, useState } from 'react';
-import { CONDITIONS } from '../../constants';
+import { CONDITIONS } from '../../constants.ts';
 
 const useDragScroll = () => {
   const ref = useRef<HTMLDivElement>(null);
