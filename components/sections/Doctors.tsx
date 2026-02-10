@@ -21,7 +21,7 @@ const useDragScroll = () => {
   const onMouseMove = (e: React.MouseEvent) => {
     if (!isDown || !ref.current) return;
     e.preventDefault();
-    const x = e.pageX - ref.current.offsetLeft);
+    const x = e.pageX - ref.current.offsetLeft;
     const walk = (x - startX) * 2;
     ref.current.scrollLeft = scrollLeft - walk;
   };
